@@ -5,7 +5,7 @@ By kyubyong park(kbpark.linguist@gmail.com) and Jongseok Kim(https://github.com/
 https://www.github.com/kyubyong/g2p
 '''
 from nltk import pos_tag
-from nltk.corpus import cmudict
+import cmudict
 import nltk
 from nltk.tokenize import TweetTokenizer
 word_tokenize = TweetTokenizer().tokenize
